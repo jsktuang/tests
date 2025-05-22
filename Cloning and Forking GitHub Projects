@@ -1,0 +1,76 @@
+Exercise 12: Lab: Cloning and Forking GitHub Projects
+
+Create a new branch called feature-add-color.
+    Click here for the solution
+
+        1
+        git branch feature-add-color
+
+
+Make feature-add-color the active branch.
+Click here for the solution
+
+    1
+
+    git checkout feature-add-color
+
+         
+
+Add another css rule as follows:
+
+    1
+    2
+    3
+
+    .red {
+         background-color:red
+     }
+
+
+          
+
+Stage this change.
+Click here for the solution
+
+    1
+
+    git add -A
+
+
+       
+
+Commit the changes in your feature-add-color.
+Click here for the solution
+
+    1
+
+    git commit -m 'adding red color feature'
+
+
+
+Merge the changes in feature-add-color into main.
+Click here for the solution
+
+    1
+
+    git checkout main && git merge feature-add-color
+
+
+        
+
+Delete the feature-add-color branch.
+Click here for the solution
+
+    1
+
+    git branch -d feature-add-color
+
+
+     
+
+Push your changes to origin.
+Click here for the solution
+
+    1
+
+    git push origin main
